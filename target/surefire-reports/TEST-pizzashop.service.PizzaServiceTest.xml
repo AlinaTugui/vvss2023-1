@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pizzashop.lab4.PaymentRepositoryTest" time="0.603" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pizzashop.service.PizzaServiceTest" time="0.099" tests="13" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -60,27 +60,46 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testWriteAll" classname="pizzashop.lab4.PaymentRepositoryTest" time="0.578">
-    <system-out><![CDATA[1,CASH,10.0
-1,CASH,10.0
-2,CARD,15.0
-1,CASH,10.0
-2,CARD,15.0
+  <testcase name="getTotalAmountValid_1" classname="pizzashop.service.PizzaServiceTest" time="0.005"/>
+  <testcase name="getTotalAmountValid_2" classname="pizzashop.service.PizzaServiceTest" time="0.002"/>
+  <testcase name="getTotalAmountValid_3" classname="pizzashop.service.PizzaServiceTest" time="0.003"/>
+  <testcase name="add_payment_8_ecp(Integer)[1]" classname="pizzashop.service.PizzaServiceTest" time="0.031">
+    <system-out><![CDATA[7,CARD,200.0
 ]]></system-out>
-    <system-err><![CDATA[mai 10, 2023 9:38:41 A.M. org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
-WARNING: Possible configuration error: method [void pizzashop.service.PizzaServiceTest.addPayment_5_ecp() throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
-mai 10, 2023 9:38:42 A.M. org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
-WARNING: Possible configuration error: method [void pizzashop.service.PizzaServiceTest.addPayment_5_ecp() throws java.lang.Exception] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
-]]></system-err>
   </testcase>
-  <testcase name="testAddAndGetAll" classname="pizzashop.lab4.PaymentRepositoryTest" time="0.004">
-    <system-out><![CDATA[1,CASH,10.0
-2,CARD,15.0
-1,CASH,10.0
-1,CASH,10.0
-2,CARD,15.0
-1,CASH,10.0
-2,CARD,15.0
+  <testcase name="addPayment_1_bva" classname="pizzashop.service.PizzaServiceTest" time="0.001">
+    <system-out><![CDATA[9,CARD,200.0
 ]]></system-out>
+  </testcase>
+  <testcase name="addPayment_2_bva" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+    <system-out><![CDATA[0,CARD,34.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_3_bva" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+    <system-out><![CDATA[8,CARD,200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_4_bva" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+    <system-out><![CDATA[2,CARD,-200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+    <system-out><![CDATA[10,CASH,200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+    <system-out><![CDATA[10,CASH,200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_6_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.001">
+    <system-out><![CDATA[3,CARD,200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_7_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.006">
+    <system-out><![CDATA[-4,CARD,-200.0
+]]></system-out>
+  </testcase>
+  <testcase name="addPayment_disabled_9_ecp(Integer)" classname="pizzashop.service.PizzaServiceTest" time="0">
+    <skipped message="void pizzashop.service.PizzaServiceTest.addPayment_disabled_9_ecp(java.lang.Integer) throws java.lang.Exception is @Disabled"/>
   </testcase>
 </testsuite>

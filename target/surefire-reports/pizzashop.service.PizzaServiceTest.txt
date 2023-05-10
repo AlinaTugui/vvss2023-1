@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: pizzashop.lab4.PizzaServiceTest
+Test set: pizzashop.service.PizzaServiceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in pizzashop.lab4.PizzaServiceTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.099 s - in pizzashop.service.PizzaServiceTest
