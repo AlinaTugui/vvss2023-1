@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pizzashop.service.PizzaServiceTest" time="0.099" tests="13" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pizzashop.service.PizzaServiceTest" time="0.099" tests="14" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Alina\.jdks\corretto-16.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Alina\AppData\Local\Temp\surefire12826010070750075672 2023-05-10T09-38-40_676-jvmRun1 surefire-20230510093841057_1tmp surefire_0-20230510093841057_2tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Alina\AppData\Local\Temp\surefire642207364414091854 2023-05-10T09-43-50_477-jvmRun1 surefire-20230510094350871_1tmp surefire_0-20230510094350871_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\faculta\Anul 3\sem2\vvss\lab\remote\InitialProject\pizzaShop\target\test-classes;C:\Users\Alina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Alina\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Alina\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Alina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Alina\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Alina\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Alina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-base\14-ea+4\javafx-base-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-graphics\14-ea+4\javafx-graphics-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-controls\14-ea+4\javafx-controls-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-fxml\14-ea+4\javafx-fxml-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4-win.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4-win.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4.jar;C:\Users\Alina\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4-win.jar;C:\Users\Alina\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Alina\.m2\repository\org\controlsfx\controlsfx\11.0.1\controlsfx-11.0.1.jar;C:\Users\Alina\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\Alina\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\Alina\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\Alina\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\Alina\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,14 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="getTotalAmountValid_1" classname="pizzashop.service.PizzaServiceTest" time="0.005"/>
+  <testcase name="getTotalAmountValid_1" classname="pizzashop.service.PizzaServiceTest" time="0.012"/>
   <testcase name="getTotalAmountValid_2" classname="pizzashop.service.PizzaServiceTest" time="0.002"/>
-  <testcase name="getTotalAmountValid_3" classname="pizzashop.service.PizzaServiceTest" time="0.003"/>
-  <testcase name="add_payment_8_ecp(Integer)[1]" classname="pizzashop.service.PizzaServiceTest" time="0.031">
+  <testcase name="getTotalAmountValid_3" classname="pizzashop.service.PizzaServiceTest" time="0.001"/>
+  <testcase name="add_payment_8_ecp(Integer)[1]" classname="pizzashop.service.PizzaServiceTest" time="0.023">
     <system-out><![CDATA[7,CARD,200.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_1_bva" classname="pizzashop.service.PizzaServiceTest" time="0.001">
+  <testcase name="getTotalAmountInvalid" classname="pizzashop.service.PizzaServiceTest" time="0.002"/>
+  <testcase name="addPayment_1_bva" classname="pizzashop.service.PizzaServiceTest" time="0.002">
     <system-out><![CDATA[9,CARD,200.0
 ]]></system-out>
   </testcase>
@@ -75,7 +76,7 @@
     <system-out><![CDATA[0,CARD,34.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_3_bva" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+  <testcase name="addPayment_3_bva" classname="pizzashop.service.PizzaServiceTest" time="0.001">
     <system-out><![CDATA[8,CARD,200.0
 ]]></system-out>
   </testcase>
@@ -83,19 +84,19 @@
     <system-out><![CDATA[2,CARD,-200.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.001">
     <system-out><![CDATA[10,CASH,200.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.002">
+  <testcase name="addPayment_5_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.001">
     <system-out><![CDATA[10,CASH,200.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_6_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.001">
+  <testcase name="addPayment_6_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.002">
     <system-out><![CDATA[3,CARD,200.0
 ]]></system-out>
   </testcase>
-  <testcase name="addPayment_7_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.006">
+  <testcase name="addPayment_7_ecp" classname="pizzashop.service.PizzaServiceTest" time="0.004">
     <system-out><![CDATA[-4,CARD,-200.0
 ]]></system-out>
   </testcase>
